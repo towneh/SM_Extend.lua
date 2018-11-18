@@ -1,11 +1,14 @@
 # SM_Extend.lua
-My customised SM_Extend.lua file for SuperMacro functions
+My customised SM_Extend.lua file containing Fury Warrior functionality for SuperMacro (1.12.1 supported versions only)
 
 ## Usage:
 
-Macro Example -
+### Installation
+This file should be placed within the World of Warcraft\Interface\AddOns\SuperMacro directory.
 
+### Macro Example
 In order to use the functions contained in the LUA file, you need to crete a macro similar to those below.
+
 The initial /run line is included so that SuperMacro provides the correct cooldown icon for the desired spell.
 
 ```
