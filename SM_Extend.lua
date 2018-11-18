@@ -110,7 +110,7 @@ end
 
 function furysunder()
     --Checks target for valid boss, then applies Sunder Armor
-    if (UnitLevel("target")>62 or UnitLevel("target")<0) and IsAlive("target") and UnitIsEnemy("target") then 
+    if (UnitLevel("target")>52 or UnitLevel("target")<0) and IsAlive("target") and UnitIsEnemy("player","target") then 
 	    StackCast("Sunder Armor",5)
 	end
 end
