@@ -120,8 +120,6 @@ function ww()
     --Casts Whirlwind, does Cleave if WW on CD
     if not OnCooldown("Whirlwind") and MyRage()>=25 then 
         CastSpellByName("Whirlwind") 
-    else 
-        CastSpellByName("Cleave")
     end
 end
 
@@ -165,7 +163,7 @@ function bt()
 end
 
 function bsBuff()
-    --Casts Battle Shout if not buffed on player. Not recommended for raids.
+    --Casts Battle Shout if not buffed on player. Ideally should be cast proactively and manually during opportune downtime.
     local i,x=1,0 
 	while UnitBuff("player",i) do 
 	    if UnitBuff("player",i)=="Interface\\Icons\\Ability_Warrior_BattleShout" then 
