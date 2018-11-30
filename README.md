@@ -9,7 +9,7 @@ This file should be placed within the World of Warcraft\Interface\AddOns\SuperMa
 ### Macro Example
 In order to use the functions contained in the LUA file, you need to create a macro similar to the examples below.
 
-The initial /run line is included so that SuperMacro can provide the visual cooldown behaviour for the desired spell.
+The initial /run line is included so that the cooldown indicator for the desired spell is shown on the action bar.
 
 ```
 MACRO 16777249 "BT" Spell_Nature_BloodLust
